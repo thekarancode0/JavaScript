@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        pre{
+            font-size: 19px;
+            font-family: sans-serif;
+            text-align: start;
+            padding: 10px;
+        }
+
+        fieldset{
+            background-color:seagreen ;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Variables</h1>
+    <pre>Variables
+        . The name must contain only letters, digits, or the symbols & and _
+        . use camelCase 
+        . keyword cannot be used to declare
+        
+        'let'  is a modern Variable declaration
+        'var'  is an old Variable declaration
+        'const' is like let, but value can't be changed
+        </pre>
+
+  <fieldset>
+    <legend>Scripts</legend>
+    <script>
+       let age = 10;
+       const name ="karan";
+       var roll = 121;
+       document.write("Age: ", age, "<br>");
+       document.write("Name: ", name, "<br>");
+       document.write("Roll: ", roll, "<br>");
+       
+       //changing the value
+       age=20;
+    //    name="kumar";  const variables can't change
+       roll=34;
+        document.writeln("After changing  values <br>")
+       document.write("Age: ", age, "<br>");
+       document.write("Name: ", name, "<br>");
+       document.write("Roll: ", roll, "<br>");
+       
+    </script>
+  </fieldset>
+    
+</body>
+</html>
